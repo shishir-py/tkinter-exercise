@@ -54,14 +54,12 @@ if __name__ == "__main__":
     button_mul =ttk.Button(button_frame, text='x',command=lambda:button_click("*"))
     button_sub =ttk.Button(button_frame, text='-',command=lambda:button_click("-"))
     button_clear =ttk.Button(button_frame, text='AC',command=lambda:clear_press())
-    button_p = ttk.Button(button_frame, text='p',command=lambda:button_click())
-    button_q = ttk.Button(button_frame, text='q',command=lambda:button_click())
+   
 
 
 
-    button_clear.grid(row=1,column=0)
-    button_p.grid(row=1,column=1)
-    button_q.grid(row=1,column=2)
+    button_clear.grid(row=1,column=0)  
+
     button_add.grid(row=1,column=3)
 
 
